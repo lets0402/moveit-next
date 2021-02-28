@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import styles from "../styles/components/challengebox.module.css";
+import styles from "../styles/components/ChallengeBox.module.css";
 import { challengeContext } from "../contexts/challengeContext";
 import { countdownContext } from "../contexts/CountdownContext";
 
