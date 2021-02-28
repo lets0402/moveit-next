@@ -20,7 +20,7 @@ interface countdownProviderProps {
 let countdownTimeout; //= NodeJS.Timeout;
 
 export function CountdownProvider({ children }: countdownProviderProps) {
-  const [time, setTime] = React.useState(1 * 5);
+  const [time, setTime] = React.useState(25 * 60);
   const [isActive, setIsActive] = React.useState(false);
   const [hasFinished, setHasFinished] = React.useState(false);
   const { startNewchallenge } = React.useContext(challengeContext);
